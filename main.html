@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Destinations | Travel Guide</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i class="fa-solid fa-globe"></i>
+                <span>TravelGuide</span>
+            </div>
+            <!-- <button class="theme-toggle"> -->
+                <!-- <i class="fas fa-moon"></i> -->
+            <!-- </button> -->
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="search-section">
+            <h1>Discover Your Next Adventure</h1>
+            <p class="subtitle">Explore destinations around the world</p>
+            
+            <div class="search-container">
+                <form id="searchForm">
+                    <div class="input-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="place" placeholder="Enter any location...">
+                        <button type="submit" id="searchButton">
+                            Search
+                        </button>
+                    </div>
+                </form>
+                <button class="getLocation">
+                    <i class="fas fa-location-dot"></i>
+                    Use Current Location
+                </button>
+            </div>
+        </div>
+
+        <!-- Update these sections in your HTML -->
+        <div class="results-section">
+            <div class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <span>Discovering amazing places...</span>
+            </div>
+
+            <div class="image-grid"></div>
+
+            <div class="tourist-info">
+                <div class="welcome-message">
+                    <i class="fas fa-compass welcome-icon"></i>
+                    <h2>Ready to Explore?</h2>
+                    <p>Enter a destination above to discover amazing places and travel insights.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="saved-destinations">
+        <h2>Saved Destinations</h2>
+        <div id="savedList"></div>
+    </div>
+
+    <footer>
+        <p>© 2024 TravelGuide. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
