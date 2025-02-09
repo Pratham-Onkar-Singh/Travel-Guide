@@ -2,13 +2,13 @@ TravelGuide - Your Interactive Travel Companion 🌍
 
 
 Overview 🌟
-TravelGuide is a dynamic web application designed to inspire and assist travelers in exploring destinations worldwide. With its sleek interface and powerful features, users can discover new places, access detailed travel information, and save their favorite destinations for future reference.
+TravelGuide is a dynamic web application designed to inspire and assist travelers in exploring destinations worldwide. With its sleek interface and powerful features, users can discover new places, access detailed travel information, and save their favorite destinations for future reference.<br>
 
 Features ✨
 🔍 Search & Discovery
 Location Search: Search any destination globally
 Current Location: Auto-detect your location for nearby discoveries
-Real-time Results: Instant information and imagery updates
+Real-time Results: Instant information and imagery updates<br>
 
 
 📸 Visual Experience
