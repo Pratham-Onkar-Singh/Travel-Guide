@@ -31,8 +31,8 @@ TravelGuide is a dynamic web application designed to inspire and assist traveler
 
 ### Frontend
 - HTML5
-- CSS3 (with modern features like CSS Variables)
-- JavaScript (ES6+)
+- CSS3
+- JavaScript
 
 ### APIs
 - Google's Gemini API
